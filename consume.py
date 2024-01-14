@@ -7,7 +7,7 @@ api_url = "https://randomuser.me/api/?results=1"
 
 # Kafka producer configuration
 kafka_config = {
-    "bootstrap.servers": "localhost:9092",  # Replace with your Kafka broker(s)
+    "bootstrap.servers": "localhost:9092", 
     "client.id": "python-producer"
 }
 
